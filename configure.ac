@@ -131,7 +131,7 @@ AC_CONFIG_FILES([
 
 dnl find out what version we are running
 ARCH=`uname -m`
-if [[ $ARCH == "x86_64" ]];
+if [[ $ARCH == "x86_64" -o $ARCH == "aarch64" ]];
 then
   SUFFIX="64"
 else

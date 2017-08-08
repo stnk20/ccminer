@@ -63,7 +63,7 @@
 #define HAVE_STRING_H 1
 
 /* Define to 1 if you have the <syslog.h> header file. */
-//#define HAVE_SYSLOG_H 1
+#define HAVE_SYSLOG_H 1
 
 /* Define to 1 if you have the <sys/endian.h> header file. */
 /* #undef HAVE_SYS_ENDIAN_H */
@@ -179,13 +179,13 @@
 #define STDC_HEADERS 1
 
 /* Define to 1 if AVX assembly is available. */
-#define USE_AVX 1
+/* #undef USE_AVX */
 
 /* Define to 1 if AVX2 assembly is available. */
-#define USE_AVX2 1
+/* #undef USE_AVX2 */
 
 /* Define to 1 if XOP assembly is available. */
-#define USE_XOP 1
+/* #undef USE_XOP */
 
 /* Version number of package */
 #define VERSION "1.5.80-git(SP-MOD)"
@@ -193,5 +193,5 @@
 /* Define curl_free() as free() if our version of curl lacks curl_free. */
 /* #undef curl_free */
 
-/* Define to `uint32_t' if <sys/types.h> does not define. */
+/* Define to `unsigned int' if <sys/types.h> does not define. */
 /* #undef size_t */
